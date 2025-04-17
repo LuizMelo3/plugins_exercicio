@@ -38,6 +38,14 @@ $('form').validate({
             required: true
         },
     },
+    messages: {
+        nome: 'Por favor insira seu NOME',
+        email: 'Por favor insira seu EMAIL',
+        telefone: 'Pr favor insira seu TELEFONE',
+        cpf: 'Por favor insira seu CPF',
+        endereco: 'Por favor insira seu ENDEREÇO',
+        cep: 'Por favor insira seu CEP'
+    },
     submitHandler: function(form) {
         console.log(form)
         alert("Sua requisição foi enviada para análise, parabéns pela aquisição!");
